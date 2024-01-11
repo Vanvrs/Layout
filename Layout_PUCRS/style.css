@@ -1,0 +1,105 @@
+
+        body{
+            min-width: 500px;
+            margin: auto;
+            width: 90%;
+            background-color: #2e61c9;
+            font-family: 'Arial, sans serif, times', cursive;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+        }
+        #header{
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: orange;
+            z-index: 999;
+        }
+        #headerFake{
+            display: flex;
+            flex-direction: column;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: orange;
+            z-index: 999;
+			
+        }
+        header{
+            gap: 75px;
+            border-bottom: 1px solid rgb(255, 165, 0);
+            justify-content: space-between;
+            display: flex;
+            width: 90%;
+            margin: auto;
+        }
+        header a{
+            color: #2e61c9;
+            text-decoration: none;
+        }
+        header img{
+            width: 200px;
+        }
+        .flex{
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+        h1{
+            text-align: center;
+            color: #2e61c9;
+            font-size: 28px;
+        }
+		
+		li {
+		list-style: none;
+		text-align: center;
+		color:azure;
+		}
+		
+		ul li{
+			list-style:circle;
+			text-align: center;
+			
+		}
+        main{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .pontos{
+            flex-wrap: wrap;
+            border: 5px orange solid;
+            background-color: rgba(255, 165, 0);
+            border-radius: 10px;
+            display: inline-block;
+            padding: 10px;
+            margin: 10px 0px;
+            box-shadow: 4px 9px 20px 1px rgb(182, 124, 17);
+            transition: .2s;
+			text-align: center
+        }
+        .pontos:hover{
+            transform: scale(1.05, 1.05);
+            transition: .2s;
+        }
+        .pontos img{
+            width: 200px;
+            height:200px;
+            border-radius: 10px;
+            box-shadow: 4px 9px 20px 1px rgb(182, 124, 17);
+        }
+        a p{
+            font-family: 'Arial, sans serif, times', cursive;
+            text-align: center ;
+            color: #2e61c9;
+        }
+
+ 
